@@ -11,6 +11,10 @@ This project implements a U-Net architecture for semantic segmentation of ultras
 - Images are pre-processed to ensure uniform dimensions through padding
 - Training and validation sets are created with an 80/20 split
 
+**### Dataset_breast
+The dataset consists of ultrasound images with corresponding manual segmentation masks. In particular I trained the benign dataset from BUSI (Breast Ultrasound Images Dataset)
+https://www.kaggle.com/datasets/subhajournal/busi-breast-ultrasound-images-dataset/data
+
 ## Model Architecture
 
 The implementation uses the U-Net architecture, a specialized convolutional network designed for biomedical image segmentation:
